@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/users" method="POST">
+        <!-- Titulo opcional -->
+    <h2>Registrarse</h2>
+    
+    <label for="username"
+        >Username: 
+        <input type="text" placeholder="username" id="username"/>
+    </label>
+    <input type="password" placeholder="password" required>
+    <input type="email" placeholder="email" required>
+    <select>
+        <option value="masculino" selected></option>
+        <option value="masculino">Masculino</option>
+        <option value="femenino">Femenino</option>
+        <option value="no-binario">No binario</option>
+    </select>
+    <select>
+        <optgroup label="Celus">
+            <option value="masculino">Motorola</option>
+            <option value="masculino">Samsung</option>
+            <option value="masculino">Iphone</option>
+            <option value="masculino">Xiaomi</option>
+            <option value="masculino">Huawei</option>
+            </optgroup>
+            <optgroup label="Teles">
+            <option value="masculino">TCL</option>
+            <option value="masculino">Samsung</option>
+            <option value="masculino">BQL</option>
+            </optgroup>
+    </select>
+    <input type="range" min="0" max="100">
+    <input type="submit" value="Registrarme">
+</form>
+</body>
+</html>
